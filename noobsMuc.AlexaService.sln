@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28016.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "noobsMuc.AlexaService", "noobsMuc.AlexaService\noobsMuc.AlexaService.csproj", "{A4F15632-C634-4A0A-BF74-9B6399552D5B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A4F15632-C634-4A0A-BF74-9B6399552D5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4F15632-C634-4A0A-BF74-9B6399552D5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4F15632-C634-4A0A-BF74-9B6399552D5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4F15632-C634-4A0A-BF74-9B6399552D5B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {835AFA33-C8EF-4792-853A-AE806C154B4E}
+	EndGlobalSection
+EndGlobal
