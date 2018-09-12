@@ -37,8 +37,10 @@ namespace noobsMuc.AlexaService
                 app.UseDeveloperExceptionPage();
             }
 
-            loggerFactory.AddConsole(Configuration.GetSection("Logging"));
-            loggerFactory.AddLog4Net("log4net.config", Configuration.GetSection("Log4net"));
+            var loggingOptions = this.Configuration.GetSection("Log4NetCore")
+                .Get<Log4NetProviderOptions>();
+
+            loggerFactory.AddLog4Net(loggingOptions);
 
             app.UseMvc();
         }
